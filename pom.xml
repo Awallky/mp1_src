@@ -1,0 +1,29 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>parent</groupId>
+  <artifactId>mp1_src</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+  <name>mp1_src</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-core</artifactId>
+      <version>1.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+      <sourceDirectory>./src/</sourceDirectory>
+      <outputDirectory>./target/classes/</outputDirectory>
+      <testSourceDirectory>./src/</testSourceDirectory>
+      <testOutputDirectory>./target/test-classes/</testOutputDirectory>
+  </build>
+</project>
